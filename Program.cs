@@ -4,4 +4,6 @@ string nome = Console.ReadLine()!;
 Console.Write("Digite seu sobrenome: ");
 string sobrenome = Console.ReadLine()!;
 
-Console.Write($"Boa noite, {nome} {sobrenome}, Prazer em conhecer você!");
+Console.WriteLine($"Nome de catálogo: {sobrenome.ToUpper()}, {nome}");
+
+Console.Write($"Boa noite, {nome}, Prazer em conhecer você!");
